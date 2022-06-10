@@ -16,6 +16,7 @@ html, body{
 	flex-direction: column;
 	margin-bottom: 50px;
 	line-height: 1.5;
+	width: 100%;
 }
 .item:last-child{
 	display: flex;
@@ -29,4 +30,10 @@ input{
 label{
 	/* border: 1px solid black; */
 	text-align: center;
+}
+
+.feedback__field{
+	height: 100px;
+	width: 100%;
+	border: 1px solid black;
 }
